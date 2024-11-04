@@ -1,0 +1,138 @@
+* {
+	font-family: Georgia;
+}
+
+body {
+	background-image: url('arepafondo.png');
+}
+
+.bloque1 {
+	padding-top: 10px;
+	background-color: #5E8197;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.bloque2 {
+	margin-top: 3vh;
+	background-color:#5E8197;
+	height: 80vh;
+	display: flex;
+}
+
+.bloque3 {
+	background-color:#5E8197;
+	margin-top: 15px;
+	height: 5vh;
+}
+
+ul {
+	background-color: #5E8197;
+}
+
+.seccion1 {
+	background: linear-gradient(to right, #8695A9, #A1B4CD);
+	width: 47vw;
+	margin:10px auto;
+}
+
+img {
+	position: relative;
+}
+.seccion2 {
+	background: linear-gradient(to right, #8695A9, #A1B4CD);
+	width: 47vw;
+	margin:10px auto;
+}
+
+li{
+	display:inline-block;
+	position: relative;
+	margin: 10px auto;
+	right: 30px;
+	height: 7vh;
+}
+
+.barra1{
+    height: 20px;
+	max-height: 20px;
+	text-align: center;
+	width: 33.3%;
+}
+
+.barra2{
+    left: 300px;
+	top: 5px;
+	height: 20px;
+	max-height: 20px;
+	width: 33.3%;
+}
+
+.barra3{
+	left: 600px;
+	bottom: 15px;
+	height: 20px;
+	max-height: 20px;
+	width: 33.3%;
+}
+
+footer {
+	text-align: center;
+    padding-top: 5px;
+}
+
+.arepa2{
+	width: 45vw;
+	height: 76vh;
+}
+
+.ultimo{
+	display:none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.despe {
+	position: relative;
+	z-index: 10;
+	display: none;
+}
+
+.test {
+	max-height: 20px;
+	height: 20px;
+	margin-top: 0px;
+}
+
+.raya {
+	background-color: blue;
+}
+
+.final {
+	background-color: #5E8197;
+	font-size: 25px;
+	padding: 10px;
+}
+
+.otro {
+	font-size: 40px;
+}
+
+.responsive_ul_li {
+	display:block;
+}
+
+.prueba {
+	width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+	.contenido{
+		display:none;
+	}
+	.ultimo{
+		display:block;
+	}
+}

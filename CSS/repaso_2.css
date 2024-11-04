@@ -1,0 +1,16 @@
+body {
+	font-size: 25px;
+}
+
+h1 {
+	background-color: blue;
+	display: inline-block;
+	height: 2em;
+}
+
+h2 {
+	display: inline-block;
+	height: 40vh;
+	width: 40vw;
+	background-color: yellow;
+}

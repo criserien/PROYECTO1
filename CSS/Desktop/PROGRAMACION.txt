@@ -1,0 +1,11 @@
+CSS
+1:00:00
+
+* selector por clase/  ok 
+* selector por id   / ok
+* selector por atributo  / ok 
+* selectores anidados  / ok 
+* anidados mezclando clase y tipo / ok
+* pseudoclases / ok
+* jerarquia / importan!, estilos en linea, ID/ clases, pseudoclases, atributos / elementos y pseudoelmentos
+* metodologia bent

@@ -1,0 +1,22 @@
+header {
+	background-color: green;
+}
+
+nav, section {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 8.5px;
+}
+
+
+nav {
+	background-color: orange;
+	width: 48vw;
+	height: 48vh;
+}
+
+section{
+	background-color: blue;
+	width: 48vw;
+	height: 48vh;
+}
